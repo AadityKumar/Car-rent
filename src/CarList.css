@@ -1,0 +1,8 @@
+.car-list {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* text-align: center; */
+    justify-content: space-around;
+    margin: 30px 80px;
+}

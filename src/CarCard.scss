@@ -1,0 +1,79 @@
+.car-card {
+    width: 400px;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 20px;
+    object-fit: cover;
+    border: 1px solid wheat;
+    background-color: #F0F0F0;
+    height: 410px;
+    gap: 20px;
+
+    img {
+        border-radius: 20px;
+        padding: 3px;
+        width: 400px;
+        cursor: pointer;
+        height: 200px;
+    }
+
+    .name-year {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between; /* Aligns elements at the edges of the row */
+       
+
+        p {
+            border: 1px solid blue;
+            padding: 4px;
+            border-radius: 15px;
+            border-style: dashed;
+            margin-right: 0px;
+            width: 40px;
+            
+        }
+        
+    }
+
+    .icon {
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 100px;
+
+        .icon-item {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 10px;
+
+        }
+    }
+
+    .price-rent{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        .bot{
+            background-color: #fff;
+            color: blue;
+            margin-right: 1px;
+        }
+
+        button{
+            border: 1px solid wheat;
+            height: 35px;
+            border-radius: 10px;
+            color: white;
+            background-color: blue;
+            cursor: pointer;
+        }
+    }
+
+}
